@@ -29,13 +29,14 @@ imgs, labels = read_data(DB)
 labels = one_hot(labels, 4)
 dataset = ImageDataset(imgs, labels, transformer=trans)
 
-from tensorflow.keras import metrics
+from tensorflow.keras import metrics, optimizers
 
 net = vgg16(output=4, input_shape=(224, 224, 3))
 net.summary()
 
-batcher = Batcher(dataset, 20, shuffle=True)
-net.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=[metrics.categorical_accuracy])
+batcher = Batcher(dataset, 10, shuffle=True)
+opt = optimizers.Adam(lr=0.0000001, decay=1e-6)
+net.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['acc'])
 net.fit(x=batcher, epochs=100)
 
 net.save('animal.h5')
