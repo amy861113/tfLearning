@@ -71,3 +71,14 @@ def one_hot(data, size):
     for i in range(len(data)):
         value[i][data[i]] = 1
     return value
+
+def randSplit(data, splitSize):
+    n = len(data)
+    size = int(n*splitSize)
+    inds = np.arange(n)
+    np.random.shuffle(inds)
+    testind = inds[:size]
+    trainind = inds[size:]
+
+    return data.iloc[trainind], data.iloc[testind]
+
