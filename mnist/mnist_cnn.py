@@ -1,21 +1,13 @@
 from tensorflow.keras.datasets import mnist
-from tensorflow.keras import models, layers
 from myLibrary.util import one_hot
-
 import  numpy as np
 np.set_printoptions(edgeitems=256)
-
 
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 
 train_images = train_images.reshape(-1, 28, 28, 1)
-test_images = test_images.reshape(-1, 28, 28, 1)
-
 train_images = train_images/255
-test_images = test_images/255
-
 train_labels = one_hot(train_labels, 10)
-test_labels = one_hot(test_labels, 10)
 
 from tensorflow.keras import layers, models
 
