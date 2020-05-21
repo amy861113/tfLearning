@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="768159a0-86b7-4ae0-886e-5c4edc4d53e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_train_data/4/squirrel9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/animal_train_data/3/squirrel9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mnist/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mnist/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mnist/mnist_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mnist/mnist_cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mnist/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mnist/train.py" afterDir="false" />
-    </list>
+    <list default="true" id="768159a0-86b7-4ae0-886e-5c4edc4d53e1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,6 +188,7 @@
       <updated>1589725928558</updated>
       <workItem from="1589725929794" duration="31999000" />
       <workItem from="1590033683919" duration="2566000" />
+      <workItem from="1590051328061" duration="52000" />
     </task>
     <servers />
   </component>
@@ -291,6 +263,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="170" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590042784415" />
+    <state x="370" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1590051328456">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="370" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1590051328456" />
     <state x="410" y="100" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1589729030707">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
