@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 
 tmp = []
 testDB = 'animal_test_data/'
-test_imgs = testDB+'0/cat20.jpg'
+test_imgs = testDB+'haung.jpg'
 
 #test_labels = one_hot(test_labels, 4)
 test_img = cv2.imread(test_imgs)

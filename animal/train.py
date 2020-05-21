@@ -2,8 +2,11 @@ import matplotlib.pyplot as plt
 import os
 from util import ImageDataset, MyGenerator, Transformer, Batcher, one_hot
 import cv2
-from model import vgg16, myModel
+from model import vgg16
 import numpy as np
+from tensorflow.keras.applications.vgg16 import VGG16
+from tensorflow.keras import layers, models
+from tensorflow.keras.models import Model
 
 
 
@@ -31,13 +34,27 @@ dataset = ImageDataset(imgs, labels, transformer=trans)
 
 from tensorflow.keras import metrics, optimizers
 
-net = vgg16(output=4, input_shape=(224, 224, 3))
+net = VGG16(weights='imagenet', include_top=True)
+
+'''
+net = models.Sequential()
+net.add(layers.Flatten())
+
+net.add(layers.Dense(4096, activation='relu'))
+net.add(layers.Dense(4096, activation='relu'))
+net.add(layers.Dense(4, activation='softmax'))
+
+
+net = Model(input = pretrained.input, output = net)'''
+net.summary()
+
+'''net = vgg16(4, (224, 224, 3))
 net.summary()
 
 batcher = Batcher(dataset, 10, shuffle=True)
-opt = optimizers.Adam(lr=0.0000001, decay=1e-6)
-net.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['acc'])
-net.fit(x=batcher, epochs=100)
+#opt = optimizers.Adam(lr=1e-4, decay=1e-6)
+net.compile(optimizer='rmsprop', loss='categorical_crossentropy', metrics=['acc'])
+net.fit(x=batcher, epochs=100)'''
 
 net.save('animal.h5')
 
