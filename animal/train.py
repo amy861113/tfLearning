@@ -1,12 +1,11 @@
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import os
-from myLibrary.util import ImageDataset, MyGenerator, Transformer, Batcher, one_hot
+from myLibrary.util import ImageDataset, Transformer, one_hot
 import cv2
-from myLibrary.model import vgg16
-import numpy as np
+#from myLibrary.model import vgg16
+#import numpy as np
 from tensorflow.keras.applications.vgg16 import VGG16
-from tensorflow.keras import layers, models
-from tensorflow.keras.models import Model
+#from tensorflow.keras.models import Model
 
 img_list = []
 def read_data(db):
@@ -14,7 +13,7 @@ def read_data(db):
     Y = []
 
     for files in os.listdir(db):
-        if os.path.isdir(db+files+'/'):
+        if files != 'label' and os.path.isdir(db+files+'/'):
             for img in os.listdir(db+files+'/'):
                 X.append(db+files+'/'+img)
                 Y.append(int(files))

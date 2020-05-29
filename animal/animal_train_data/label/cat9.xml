@@ -1,0 +1,26 @@
+<annotation>
+  <folder>0</folder>
+  <filename>cat9</filename>
+  <path>D:\tfLearing\animal\animal_train_data\0\cat9.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>508</width>
+    <height>286</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>cat</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>131</xmin>
+      <ymin>28</ymin>
+      <xmax>385</xmax>
+      <ymax>286</ymax>
+    </bndbox>
+  </object>
+</annotation>

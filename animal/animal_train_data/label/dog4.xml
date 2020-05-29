@@ -1,0 +1,26 @@
+<annotation>
+  <folder>dog</folder>
+  <filename>dog4</filename>
+  <path>C:\Users\Julie\pythonwork\ai\traindata\label\dog\dog4.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>183</width>
+    <height>275</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>dog</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>11</xmin>
+      <ymin>14</ymin>
+      <xmax>175</xmax>
+      <ymax>261</ymax>
+    </bndbox>
+  </object>
+</annotation>

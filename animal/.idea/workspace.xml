@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="768159a0-86b7-4ae0-886e-5c4edc4d53e1" name="Default Changelist" comment="" />
+    <list default="true" id="768159a0-86b7-4ae0-886e-5c4edc4d53e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/buildDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myLibrary/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/myLibrary/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +61,7 @@
       <recent name="D:\tfLearing\animal" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.predict">
+  <component name="RunManager" selected="Python.buildDataset">
     <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="animal" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,6 +76,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="buildDataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="animal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/buildDataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,35 +172,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="animal" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.predict" />
+        <item itemvalue="Python.buildDataset" />
         <item itemvalue="Python.train (1)" />
+        <item itemvalue="Python.predict" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.application" />
-        <item itemvalue="Python.util" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +195,7 @@
       <workItem from="1589725929794" duration="31999000" />
       <workItem from="1590033683919" duration="2566000" />
       <workItem from="1590051328061" duration="52000" />
+      <workItem from="1590472844241" duration="12053000" />
     </task>
     <servers />
   </component>
@@ -196,12 +203,12 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Deployment" timestamp="1590041901842">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-1533" y="38" key="#Deployment" timestamp="1590482763372">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
     <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1590041901842" />
-    <state x="-1533" y="38" key="#Deployment/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589906025598" />
-    <state x="387" y="31" key="#Deployment/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1589908233398" />
+    <state x="-1533" y="38" key="#Deployment/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590482763372" />
+    <state x="387" y="31" key="#Deployment/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1590475672848" />
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589728967465">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -219,46 +226,46 @@
     </state>
     <state x="-1180" y="282" key="FileChooserDialogImpl/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589903372405" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1589909029501" />
-    <state width="1323" height="147" key="GridCell.Tab.0.bottom" timestamp="1590042792776">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="936" height="233" key="GridCell.Tab.0.bottom" timestamp="1590762996994">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="147" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590042792776" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589913289822" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1589909592209" />
-    <state width="1323" height="147" key="GridCell.Tab.0.center" timestamp="1590042792776">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="938" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590484225399" />
+    <state width="936" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1590762996994" />
+    <state width="936" height="233" key="GridCell.Tab.0.center" timestamp="1590762996994">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="147" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590042792776" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589913289822" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1589909592208" />
-    <state width="1323" height="147" key="GridCell.Tab.0.left" timestamp="1590042792776">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="938" height="233" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590484225399" />
+    <state width="936" height="233" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1590762996994" />
+    <state width="936" height="233" key="GridCell.Tab.0.left" timestamp="1590762996994">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="147" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590042792776" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589913289822" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1589909592208" />
-    <state width="1323" height="147" key="GridCell.Tab.0.right" timestamp="1590042792776">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="938" height="233" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590484225399" />
+    <state width="936" height="233" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1590762996994" />
+    <state width="936" height="233" key="GridCell.Tab.0.right" timestamp="1590762996994">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="147" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590042792776" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589913289822" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1589909592208" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1589905007982">
+    <state width="938" height="233" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590484225399" />
+    <state width="936" height="233" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1590762996994" />
+    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1590480496350">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589905007982" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1589905007982">
+    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590480496350" />
+    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1590480496349">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589905007982" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1589905007982">
+    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590480496349" />
+    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1590480496349">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589905007982" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1589905007982">
+    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590480496349" />
+    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1590480496350">
       <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589905007982" />
+    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590480496350" />
     <state x="170" y="12" key="SettingsEditor" timestamp="1590042784415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -271,11 +278,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="410" y="100" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1366.728@0.0.1366.728" timestamp="1589729030707" />
-    <state x="627" y="134" key="ftp.server.browser" timestamp="1589908232350">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1293" y="141" key="ftp.server.browser" timestamp="1590482762554">
+      <screen x="-1920" y="7" width="1920" height="1040" />
     </state>
     <state x="446" y="94" key="ftp.server.browser/0.0.1366.728@0.0.1366.728" timestamp="1589729196993" />
-    <state x="-1293" y="141" key="ftp.server.browser/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1589906024588" />
+    <state x="-1293" y="141" key="ftp.server.browser/0.0.1920.1040/-1920.7.1920.1040@-1920.7.1920.1040" timestamp="1590482762554" />
     <state x="627" y="134" key="ftp.server.browser/0.0.1920.1040/-1920.7.1920.1040@0.0.1920.1040" timestamp="1589908232350" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589909099246">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -284,11 +291,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/animal$model.coverage" NAME="model Coverage Results" MODIFIED="1589873551236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/animal$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1590042515912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/animal$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1590484695554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/animal$util.coverage" NAME="util Coverage Results" MODIFIED="1589902667564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/animal$animal.coverage" NAME="animal Coverage Results" MODIFIED="1589960559949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/animal$cifar10.coverage" NAME="cifar10 Coverage Results" MODIFIED="1589876858791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/python/tfLearning" />
     <SUITE FILE_PATH="coverage/animal$application.coverage" NAME="application Coverage Results" MODIFIED="1589911518037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/animal$predict.coverage" NAME="predict Coverage Results" MODIFIED="1590042661747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/animal$predict.coverage" NAME="predict Coverage Results" MODIFIED="1590484225393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/animal$buildDataset.coverage" NAME="buildDataset Coverage Results" MODIFIED="1590483502365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

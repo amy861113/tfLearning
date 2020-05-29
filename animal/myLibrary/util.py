@@ -65,6 +65,20 @@ class Batcher(Sequence):
         indices = self.indices[idx * self.batch_size: (idx + 1) * self.batch_size]
         return self.datasets[indices]
 
+class OldDataset:
+    def __init__(self, height, width, focus1, focus2, focus3, focus4, filename):
+        self.height = height
+        self.width = width
+        self.focus1 = focus1
+        self.focus2 = focus2
+        self.focus3 = focus3
+        self.focus4 = focus4
+        self.filename = filename
+
+    def do_nothing(self):
+        pass
+
+
 def one_hot(data, size):
     shape = (len(data), size)
     value = np.zeros(shape=shape)
